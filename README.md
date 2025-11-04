@@ -11,9 +11,9 @@ Learning through **[SuperSimple.dev](https://youtu.be/G3e-cpL7ofc?si=JG5SED4WgV5
 
 ## 📚 Study Record
 
-| Serial No | Topic Covered | Duration | YouTube Timestamp | Exercises Done | Satisfaction Level |
+| Day no and date | Topic Covered | Duration | YouTube Timestamp | Exercises Done | Satisfaction Level |
 |------------|----------------|-----------|--------------------|----------------|--------------------|
-| Day-1 | HTML Basics, CSS Basics, Hovers, Transitions, Shadows | 2h 16min | 1:03:10 | Lesson 1, 2 | Good |
+| Day-1 (4 nov, 2025) | HTML Basics, CSS Basics, Hovers, Transitions, Shadows | 2h 16min | 1:03:10 | Lesson 1, 2 | Good |
 
 ---
 
