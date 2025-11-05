@@ -1,0 +1,29 @@
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.span-element {
+ text-decoration: underline;
+ cursor: pointer;
+}
