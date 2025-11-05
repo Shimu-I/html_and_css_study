@@ -17,7 +17,8 @@ Next
 | Day no and date | Topic Covered | Duration | YouTube Timestamp | Exercises Done | Satisfaction Level |
 |------------|----------------|-----------|--------------------|----------------|--------------------|
 | Day-1 (4 nov, 2025) | HTML Basics, CSS Basics, Hovers, Transitions, Shadows | 2h 16min | 1:03:10 | Lesson 1, 2 | Good |
-
+| Day-2 (5 nov, 2025) | Chrome DevTools & CSS Box Model, Text Styles, The HTML Structure, Images and Text Boxes, CSS Display Property | 7h 49min | 2:35:00 | Lesson 3, 4, 5, 6, 7, 8 | Better |
 ---
 
 ✅ *Continuing to document my web development journey step by step.*
+
