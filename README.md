@@ -7,6 +7,9 @@
 Learning through **[SuperSimple.dev](https://youtu.be/G3e-cpL7ofc?si=JG5SED4WgV5HB6Tt)**  
 *(YouTube tutorial link)*
 
+Next 
+1. Tailwind CSS v4 **[JavaScript Mastary](https://youtu.be/6biMWgD6_JY)
+
 ---
 
 ## 📚 Study Record
