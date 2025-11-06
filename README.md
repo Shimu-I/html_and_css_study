@@ -40,10 +40,8 @@ Next
 |------------|----------------|-----------|--------------------|----------------|--------------------|
 | Day-1 (4 nov, 2025) | 1) HTML Basics, 2) CSS Basics, 3) Hovers, Transitions, Shadows | 2h 16min | 1:03:10 | Lesson 1, 2 | Good |
 | Day-2 (5 nov, 2025) | 4) Chrome DevTools & CSS Box Model, 5) Text Styles, 6) The HTML Structure, 7) Images and Text Boxes, 8) CSS Display Property | 7h 49min | 2:35:00 | Lesson 3, 4, 5, 6, 7, 8 | Better |
-| Day-3 (6 nov, 2025) | 9) The div Element, 10) Nested Layouts Technique, 11) CSS Grid, 12) Flexbox | | 4:15:23 | Lesson 9, 10, 11, 12 | Better |
+| Day-3 (6 nov, 2025) | 9) The div Element, 10) Nested Layouts Technique, 11) CSS Grid, 12) Flexbox | 7h 44min | 4:15:23 | Lesson 9, 10, 11, 12 | Better |
 ---
-
-
 
 
 
