@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+15f
+    </title>
+  </head>
+
+  <style>
+    body {
+      background-color: rgb(225, 225, 225);
+      height: 3000px;
+    }
+
+    .template {
+     position: relative;
+      display: inline-block
+    }
+
+
+    .image {
+      height: 300px;
+      width: 300px;
+      object-fit: cover;
+    }
+
+    .sale {
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      
+      position: absolute;
+      top: 10px;
+      right: 0px;
+
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    .cart-box {
+      background-color: rgba(255, 255, 255, 0.6);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cart-button {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-style: solid;
+      border-width: 1px;
+      cursor: pointer;
+      
+    }
+  </style>
+  <body>
+
+    <div class="template">
+
+        <img class="image" src="image.png" alt=""> 
+        <div class="sale">
+        20&#37; OFF
+    </div>
+    <div class="cart-box">
+      <button class="cart-button"> Add to Cart</button>
+    </div>
+
+      </div>
+     
+  </body>
+</html>
