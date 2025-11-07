@@ -8,9 +8,12 @@ Learning through **[SuperSimple.dev](https://youtu.be/G3e-cpL7ofc?si=JG5SED4WgV5
 *(YouTube tutorial link)*
 
 Next 
-1. Tailwind CSS v4 **[JavaScript Mastary](https://youtu.be/6biMWgD6_JY)**
-2. Sass **[Net Ninja](https://youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb&si=jVMIx86U-f1x-liz)**
+2. Tailwind CSS v4 **[JavaScript Mastary](https://youtu.be/6biMWgD6_JY)**
+3. Sass **[Net Ninja](https://youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb&si=jVMIx86U-f1x-liz)**
+
 ---
+
+# 1. HTML & CSS Full Course – Beginner to Pro’ by SuperSimple.dev
 
 ## Lessons:
 
