@@ -13,7 +13,7 @@ Next
 
 ---
 
-# 1. HTML & CSS Full Course – Beginner to Pro’ by SuperSimple.dev
+## 1. HTML & CSS Full Course – Beginner to Pro’ by SuperSimple.dev
 
 ## Lessons:
 
