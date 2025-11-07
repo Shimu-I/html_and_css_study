@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      14e
+    </title>
+    <style>
+
+      body{
+        height: 3000px;
+        background-color: gray;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: gray;
+        background-color: white;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .user {
+        display: flex;
+        align-items: center;
+
+      }
+
+.image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.image-name {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+
+}
+
+.add-friend-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(43, 127, 237);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.message-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(224, 226, 227);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="user"> 
+
+         <div>
+        <img class="image" src="dog_meme.jpg" alt="">
+      </div>
+      <div class="image-name">Oliver Cat</div>
+      </div>
+     
+
+      <div class="buttons">
+        <button class="add-friend-button">
+          Add friend
+        </button>
+        <button class="message-button">
+          Message
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
