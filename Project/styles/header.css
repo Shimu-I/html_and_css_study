@@ -30,10 +30,12 @@
       height: 24px;
       margin-left: 24px;
       margin-right: 20px;
+      cursor: pointer;
     }
 
     .youtube-logo {
       height: 20px;
+      cursor: pointer;
     }
 
     .middle-section {
@@ -70,7 +72,11 @@
       
     }
 
-    .search-button {
+
+
+
+    .search-button
+    {
       height: 40px;
       width: 66px;
       background-color: rgb(240, 240, 240);
@@ -79,15 +85,66 @@
       border-color: rgb(192, 192, 192);
       margin-left: -1px;
       margin-right: 10px;
+      position: relative;
+
     }
+
+    .search-button, 
+    .voice-search-button,
+    .upload-icon-container,
+    .notifications-icon-container-container,
+    .youtube-apps-container {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+
+   .search-button .tooltip, 
+   .voice-search-button .tooltip,
+   .upload-icon-container .tooltip, 
+   .notifications-icon-container-container .tooltip, 
+   .youtube-apps-container .tooltip {
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity .15s;
+    pointer-events: none;
+    white-space: nowrap;
+
+   }
+
+
+      .search-button:hover .tooltip,  
+      .voice-search-button:hover .tooltip, 
+      .upload-icon-container:hover .tooltip,
+      .notifications-icon-container-container:hover .tooltip, .youtube-apps-container:hover .tooltip  {
+        opacity: 1;
+      }
+
+
+
 
     .search-icon {
       height: 25px;
-      margin-top: 4px;
+      
 
     }
 
     .voice-search-button {
+     
       height: 40px;
       width: 40px;
       border-radius: 20px;
@@ -98,7 +155,7 @@ background-color: rgb(245, 245, 245);
 
     .voice-search-icon {
       height: 24px;
-      margin-top: 4px;
+     
       
     }
 
@@ -115,10 +172,12 @@ background-color: rgb(245, 245, 245);
 
     .upload-icon {
       height: 24px;
+      
     }
 
     .youtube-apps-icon {
       height: 24px;
+      
     }
 
     .notifications-icon {
@@ -149,6 +208,7 @@ background-color: rgb(245, 245, 245);
     .current-user-picture {
       height: 32px;
       border-radius: 16px;
+      cursor: pointer;
     }
     
 
