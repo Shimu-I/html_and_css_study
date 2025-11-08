@@ -31,7 +31,37 @@ margin-bottom: 5px;
 }
 
 .sidebar-link div {
-font-family: Rotobo, Arial;
+
 font-size: 10px;
 
+}
+
+@media (min-width: 1200px) {
+.sidebar-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 15px;
+  white-space: nowrap;
+  padding-left: 15px;
+  
+}
+
+.sidebar-link div {
+  font-size: 15px;
+  
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 200px;
+  z-index: 200;
+  padding-top: 5px;
+
+}
 }
