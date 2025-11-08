@@ -70,8 +70,9 @@
 }
 
 .tooltip-box .owner .subscribers {
-  font-size: 15px;
-  color: rgb(166, 166, 166);
+  font-size: 14px;
+  color: rgb(87, 85, 85);
+  margin-top: 5px;
 }
 
 .channel-picture:hover .tooltip-box {
