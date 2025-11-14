@@ -1,0 +1,162 @@
+.section-body {
+
+ 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: top;
+  width: fit-content;
+  row-gap: 180px;
+
+}
+
+
+.sectin-body  .part {
+ 
+}
+
+.one-story {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.person-small-box {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.blue-tick {
+  height: 15px;
+  width: 15px;
+  object-fit: cover;
+}
+
+.person-small-box-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.handle {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.handle span {
+  font-weight: 80;
+  color: rgb(166, 162, 162);
+  font-size: 13px;
+}
+
+
+
+
+
+.person-small-box  .story-ring {
+
+  padding-left: 100px;
+  padding-right: 100px;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+ .person-small-box  .ring {
+  width: 38px;
+  height: 38px;
+  background: conic-gradient(
+    #fa0660, #b81cc3, #d62976, #fcfc56, #912510, #f44545
+  );
+  border-radius: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.person-small-box  .ring .person {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  
+ 
+}
+
+.menu3dot {
+height: 25px;
+}
+
+button .menu3dot {
+  cursor: pointer;
+}
+
+button .menu3dot:hover {
+ height: 28px;
+}
+
+
+
+/* post element */
+.post {
+  height: 450px;
+  border-radius: 5px;
+ 
+}
+
+
+.post-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.love, .bookmark, .chat {
+  height: 30px;
+  cursor: pointer;
+}
+
+.post-button .send {
+  height: 25px;
+}
+
+
+
+/* post text */
+
+.post-info {
+  line-height: 12px;
+}
+.likes, .username-status {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+ .username-status span {
+  font-weight: 100;
+  color: rgb(183, 176, 176);
+ }
+
+.comments, .add-comments {
+  font-size: 13px;
+  color: rgb(183, 176, 176);
+}
