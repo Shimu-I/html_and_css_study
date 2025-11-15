@@ -60,9 +60,12 @@
 
 
 
-
+.story-ring {
+  margin-top: 65px;
+}
 
 .person-small-box  .story-ring {
+
 
   padding-left: 100px;
   padding-right: 100px;

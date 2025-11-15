@@ -1,3 +1,40 @@
 header {
   font-family: "Montserrat", sans-serif;
+  color: white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start
+  align-items: center;
+}
+
+
+.search-bar {
+  background-color: rgb(56, 56, 56);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search-bar::placeholder {
+font-size: 14px;
+font-weight: bold;
+}
+
+.text-logo {
+  height: 130px;
+  width: fit-content;
+}
+
+header div {
+  display: flex;
+  
+}
+
+@media (max-width: 749) {
+  header {
+display: none;
+  }
 }

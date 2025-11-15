@@ -18,3 +18,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.middle-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

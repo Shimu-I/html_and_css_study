@@ -1,0 +1,140 @@
+.right-part {
+ 
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+ width: 300px;
+padding-left: 0px;
+padding-top: 50px;
+padding-right: 50px;
+
+row-gap: 20px;
+
+
+}
+
+.instra-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+
+.instra-u {
+  height: 40px;
+  cursor: pointer;
+
+}
+
+.instra-user-handle {
+  cursor: pointer;
+}
+
+.instra-user div p {
+  
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+.instra-user-handle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.instra-user-name {
+font-size: 12.5px;
+}
+
+
+.div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.suggestion {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(205, 196, 196);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.suggestion span {
+  color: white;
+  font-size: 13px;
+}
+
+.recom-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.ins-btn {
+  height: 42px;
+  width: 42px;
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.follow-text {
+  font-size: 13px;
+  color: rgb(176, 171, 171);
+  white-space: nowrap;
+}
+
+.recom-inside-text {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.ins-app {
+  cursor: pointer;
+}
+
+
+.recom-inside-text p {
+   margin: 0;
+  padding: 0;
+}
+
+.recom-app {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  column-gap: 4px;
+}
+
+.btn {
+  color: rgb(104, 172, 240);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-info{
+  font-size: 12px;
+  color: rgb(164, 154, 154);
+  
+}
+
+.span-co {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(164, 154, 154);
+}
+
+
+
+@media (max-width: 1000px) {
+  .right-part{
+    display: none;
+  }
+}
