@@ -60,7 +60,7 @@ nav {
   border-radius: 8px;
 
   transition: all 0.15s;
-  padding-left: -3px;
+
 
 
 }
@@ -91,6 +91,8 @@ button {
   border: none;
 }
 
+
+
 .text {
   color: white;
   margin-left: 30px;
@@ -108,7 +110,7 @@ button {
 
 /* for Tablet view*/
 
-@media(min-width: 751px) and (max-width: 1000px) {
+@media(min-width: 551px) and (max-width: 1000px) {
   nav {
     position: fixed;
     top: 0;
@@ -151,113 +153,6 @@ button {
 
 
 
-/* for mobile view*/
-
-@media (max-width: 750px) {
-
-  nav {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    top: auto;
-    background-color: rgb(0, 0, 0);
-
-    
-    flex-direction: column;
-    justify-content: center;
-
-    height: 30px;
-    padding: 10px 20px;
-    width: 100%;
-    align-items: center;
-
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(66, 63, 63);
-
-   
-
-  }
-
-  .middle-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    align-items: center;
-    width: 100%;
-
-
-
-
-  }
-
-  .icon-box {
-    cursor: pointer;
-  }
-
-
-  .icon-box:has(.love),
-  .icon-box:has(.explore),
-  .bottom-box,
-  .top-box {
-    display: none !important;
-    pointer-events: none;
-  }
-
-
-
-  .icon-box {
-    z-index: 1000;
-  }
-
-  .floadig {
-    position: fixed;
-    
-    background-color: rgb(37, 36, 36);
-    border-radius: 30px;
-   
-    
-
-
-  }
-
-.floating {
-
-  height: 55px;
-  max-width: 50px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background-color: rgb(37, 36, 36);
-  border-radius: 50px;
-  padding-left: 10px;
-
-  margin-bottom: 50px;
-
-
-
-
-}
-
-.f-icon-box {
-  display: none;
-}
-
-.floating .f-text {
- display: none;
-}
-
-.floating .f-send {
-  height: 25px;
-  width: 25px;
-  padding-top: 15px;
-}
-
-
-
-}
 
 
 
@@ -297,4 +192,103 @@ button {
 
 .floating:hover {
   background-color: rgb(51, 48, 48);
+}
+
+
+
+/* for mobile view*/
+
+@media (max-width: 550px) {
+
+  nav {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: auto;
+    background-color: rgb(0, 0, 0);
+
+
+    flex-direction: column;
+    justify-content: center;
+
+    height: 30px;
+    padding: 10px 10px;
+    width: 100%;
+    align-items: center;
+
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(66, 63, 63);
+
+  }
+
+  .middle-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    align-items: center;
+    width: 100%;
+  }
+
+  .icon-box {
+    cursor: pointer;
+  }
+
+
+
+  .bottom-box,
+  .top-box {
+    display: none !important;
+    pointer-events: none;
+  }
+
+
+
+  .icon-box {
+    z-index: 1000;
+  }
+
+
+
+  .floating {
+    height: 55px;
+    max-width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 50px;
+    padding-left: 10px;
+
+    margin-bottom: 50px;
+  }
+
+
+  .floating .f-text {
+    display: none;
+  }
+
+  .floating .f-send {
+    height: 25px;
+    width: 25px;
+    padding-top: 15px;
+   
+  }
+
+   .icon-box:nth-child(4), /* search button */
+  .icon-box:nth-child(6)  /* Love button */ {
+    display: none;
+  }
+
+
+  .icon-box:nth-child(1) { order: 1; } /* Home */
+  .icon-box:nth-child(5) { order: 2; } /* explore */
+  .icon-box:nth-child(2) { order: 3; } /*video*/
+  .icon-box:nth-child(7) { order: 4; } /* create */
+  .icon-box:nth-child(3) { order: 5; } /* message */
+  .icon-box:nth-child(8) { order: 6; } /* Profile */
+  
+
 }

@@ -60,9 +60,10 @@
 
 
 
-.story-ring {
-  margin-top: 65px;
-}
+
+
+
+
 
 .person-small-box  .story-ring {
 
@@ -95,11 +96,13 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  border-width: 2px;
-  border-style: solid;
-  border-color: black;
+
   
  
+}
+
+.person-small-box  .ring {
+  border: none;
 }
 
 .menu3dot {
@@ -162,4 +165,42 @@ button .menu3dot:hover {
 .comments, .add-comments {
   font-size: 13px;
   color: rgb(183, 176, 176);
+}
+
+
+
+@media (min-width: 551px) {
+ .story-ring {
+  margin-top: 20px;
+  
+
+ 
+}
+
+
+}
+
+@media (max-width: 550px) {
+ .story-ring {
+   margin-top: 65px;
+   margin-left: 40px;
+}
+
+.story-ring .one-story:last-child{
+  display: none;
+}
+
+
+
+  
+ 
+
+
+
+}
+
+@media (min-width: 1000px){
+  .story-ring {
+    margin-left: 200px;
+  }
 }

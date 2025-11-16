@@ -1,18 +1,26 @@
 header {
   font-family: "Montserrat", sans-serif;
   color: white;
-  height: 40px;
+ background-color: black;
+  height: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: start
+  justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 
 .search-bar {
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(54,54, 54);
   border: none;
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   height: 35px;
   padding-left: 10px;
   padding-right: 10px;
@@ -21,19 +29,137 @@ header {
 .search-bar::placeholder {
 font-size: 14px;
 font-weight: bold;
+color: rgb(152, 146, 146);
 }
 
+
+
 .text-logo {
-  height: 130px;
+  height: 30px;
   width: fit-content;
+  
 }
 
 header div {
   display: flex;
+  position: relative;
   
 }
 
-@media (max-width: 749) {
+.love-button {
+  height: 20px;
+  width: 20px;
+}
+
+.drop-down-btn {
+  height: 15px;
+}
+
+.drop-down {
+  cursor: pointer;
+}
+
+.drop-down:focus + .drop-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transition: all .15s;
+}
+
+.drop-tooltip {
+  background-color: rgb(38, 38, 38);
+  width: fit-content;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  padding-top: 8px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 5px;
+
+  position: absolute;
+  bottom: -80px;
+  opacity: 0;
+
+
+
+  
+}
+
+.favorite-btn, .following-btn {
+color: white;
+font-size: 14px;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+column-gap: 20px;
+
+cursor: pointer;
+}
+
+.following, .favourite {
+  height: 20px;
+}
+
+.search-btn{
+  height: 20px;
+  
+  
+  
+  
+}
+
+.love-btn {
+ margin-left: 10px;
+ position: relative;
+ 
+}
+
+.love-btn-img {
+   height: 30px;
+}
+
+.header-div {
+  display: flex;;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-tooltip{
+  background-color: red;
+  height: 8px;
+  width: 8px;
+  border-radius: 15px;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+
+  position: absolute;
+  top: 2px;
+  right: 6px;
+}
+.search-co {
+  height: 35px;
+  font-weight: 35px;
+ background-color: rgb(54,54, 54);
+ display: flex;
+ align-items: center;
+ padding-left: 10px;
+ padding-right: 7px;
+ border-radius: 5px 0px 0px 5px;
+}
+
+
+
+@media (min-width: 551px) {
   header {
 display: none;
   }
