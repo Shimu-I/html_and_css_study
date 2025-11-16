@@ -1,0 +1,319 @@
+.right-part {
+
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+
+  row-gap: 20px;
+
+
+}
+
+.instra-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+
+.instra-u {
+  height: 40px;
+  cursor: pointer;
+
+}
+
+.instra-user-handle {
+  cursor: pointer;
+}
+
+.instra-user div p {
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+.instra-user-handle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.instra-user-name {
+  font-size: 12.5px;
+}
+
+
+.div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+.suggestion {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(205, 196, 196);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.suggestion span {
+  color: white;
+  font-size: 13px;
+}
+
+.recom-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.ins-btn {
+  height: 42px;
+  width: 42px;
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.follow-text {
+  font-size: 13px;
+  color: rgb(176, 171, 171);
+  white-space: nowrap;
+}
+
+.recom-inside-text {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+}
+
+.ins-app {
+  cursor: pointer;
+}
+
+
+.recom-inside-text p {
+  margin: 0;
+  padding: 0;
+}
+
+.recom-app {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  column-gap: 4px;
+
+
+}
+
+.btn {
+  color: rgb(104, 172, 240);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page-info {
+  font-size: 12px;
+  color: rgb(164, 154, 154);
+
+}
+
+.span-co {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgb(164, 154, 154);
+}
+
+
+
+@media (max-width: 1000px) {
+  .right-part {
+    display: none;
+  }
+}
+
+/*Instragram app tooltip*/
+.show-tooltip {
+  position: relative;
+
+}
+
+.recom-inside-text .ins-app-tooltip {
+  position: absolute;
+  top: 18px;
+  left: -13px;
+
+}
+
+
+
+
+.ins-app-tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+
+
+  box-shadow: 0px 5px 20px rgba(207, 190, 190, 0.3);
+
+  opacity: 0;
+  position: absolute;
+
+  top: 50px;
+}
+
+
+
+
+.ins-btn:hover+.ins-app-tooltip {
+  opacity: 1;
+
+  transition: all .15s;
+}
+
+.ins-app:hover+.ins-app-tooltip {
+  opacity: 1;
+  transition: all .15s;
+}
+
+.insta-info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: start;
+  align-items: center;
+
+  margin-top: 15px;
+  margin-left: 35px;
+  text-align: start;
+
+  width: 100%;
+
+}
+
+.ins-app-logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+}
+
+.ins-com {
+  font-size: 14px;
+  color: rgb(110, 103, 103);
+}
+
+.ins-thread {
+  font-size: 13px;
+  background-color: rgb(54, 54, 54);
+  border-radius: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 24px;
+  margin-top: 3px;
+
+}
+
+.ins-para,
+.ins-para p {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+
+}
+
+
+
+.pff {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pff-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pff-f p {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+
+.pff p {
+  font-size: 13px;
+}
+
+.pff .num {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-image {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3px;
+}
+
+
+.follow-btn {
+  height: 30px;
+}
+
+.follow-btn-ins-tooltip {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+
+  height: 40px;
+  width: 350px;
+  background-color: #4A5DF9;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+
+  border-radius: 10px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}

@@ -12,10 +12,6 @@
 }
 
 
-.sectin-body  .part {
- 
-}
-
 .one-story {
   display: inline-block;
   width: fit-content;
@@ -172,9 +168,7 @@ button .menu3dot:hover {
 @media (min-width: 551px) {
  .story-ring {
   margin-top: 20px;
-  
 
- 
 }
 
 
@@ -184,23 +178,13 @@ button .menu3dot:hover {
  .story-ring {
    margin-top: 65px;
    margin-left: 40px;
+
+
 }
 
 .story-ring .one-story:last-child{
   display: none;
 }
 
-
-
-  
- 
-
-
-
 }
 
-@media (min-width: 1000px){
-  .story-ring {
-    margin-left: 200px;
-  }
-}

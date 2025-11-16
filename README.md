@@ -46,6 +46,7 @@ The features we will talk about in this lesson are:
 
 ## Project preview for this course: 
 1. [YouTube Home Page](/Project/preview.md)
+2. [Instagram Home Page](/Project-f-instagram/preview.md)
 
 
 
@@ -61,6 +62,7 @@ The features we will talk about in this lesson are:
 | Day-3 (6 nov, 2025) | 9) The div Element, 10) Nested Layouts Technique, 11) CSS Grid, 12) Flexbox | 7h 44min | 4:15:23 | Lesson 9, 10, 11, 12 | Better |
 | Day-4 (7 nov, 2025) | 13) Nested Flexbox, 14) CSS Position | 4h 22min | 5:07:16 | Lesson 13, 14 | Better |
 | Day-5, 6 (7, 8 nov, 2025) | 15) Position Absolute and Relative, 16) Finish the Project, 17) More CSS Features | 6h 44min | 6:31:16 | Lesson 15, 16, 17 | Satisfied |
+| Date(12, 14, 15, 16, 17) |Instagram Project (Done by myself) | 13h 54min | N/A | N/A | Very good |
 ---
 
 

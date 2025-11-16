@@ -15,14 +15,26 @@ body {
 .middle-part {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
-  
 }
 
 .middle-body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
+ 
 }
+
+@media (min-width: 1000px) {
+  .middle-part {
+
+    display: flex;
+
+    margin-left: 200px;
+
+
+  }
+}
+
